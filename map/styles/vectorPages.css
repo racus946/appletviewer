@@ -1,0 +1,54 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #333;
+    min-height: 100vh;
+    /* border-radius: 10px; */
+    overflow: hidden; 
+}
+
+.main {
+    background-color: #333;
+    /* border-radius: 1em; */
+    /* padding: 1em; */
+    /* margin-top: 30%; */
+    /* min-height: 100vh; */
+    color: white;
+    /* max-width: 600px;*/
+    overflow: hidden; 
+        
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: white;
+    color:black;
+    text-decoration: underline;
+}
+
+.title {
+    border-radius: 2px;
+    padding: 5px;
+    background-color: white;
+    color:black;
+}
+
+/* ------------------------------------------------ Page 1 ----------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Page 2 ----------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Page 3 ----------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Page 4 ----------------------------------------------------- */
+
+
+

@@ -1,0 +1,7 @@
+ # DO NOT DELETE FILE: this is needed for cPanel to update the repo
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/modularphysics/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
