@@ -4,3 +4,4 @@
 2. download the studio visual code
 3. download the live server extension inside the studio visual code
 
+- recommended to place the files within your desktop
