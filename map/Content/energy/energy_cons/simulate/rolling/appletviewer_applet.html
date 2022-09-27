@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Numercial Vector Addition</title>
+    <title>Rolling Simulation</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <script
       language="JAVASCRIPT"
@@ -22,20 +22,20 @@
   <!-- width and height, not percentages -->
     <div align="center">
       <applet
-        code="ca.ucalgary.phas.map.vectors.VectorApplet.class"
+        code="ca.ucalgary.phas.map.energy.RotationApplet.class"
         codebase="../../../../../Classes"
-        archive="ucalgaryjars/vectorclasses.jar,ucalgaryjars/utilities.jar,ucalgaryjars/page_browser.jar"
-        width="100"
-        height="100"
+        archive="ucalgaryjars/energyclasses.jar,ucalgaryjars/utilities.jar"
+        width="300"
+        height="300"
         MAYSCRIPT="true"
       >
-        <param name="TASK" value="numericalAddition" />
         <param name="PAGE_BROWSER_PRESENT" value="false" />
+        <PARAM NAME="SINGLE_PAGE_MODE" VALUE="true" />
         <param name="VERBOSE" value="false" />
         <param name="HIDE_TOOLS" value="false" />
-        <param name="APPLET_NAME" value="Numerical Vector Addition" />
-        <param name="APPLET_NAME_FR" value="Addition numerique de vecteurs" />
-        <param name="HELP_URL" value="../../../../../Classes/info/vectors/VectorApplet/numericalAddition/applet_help.html" />
+        <param name="APPLET_NAME" value="Rotation" />
+        <param name="APPLET_NAME_FR" value="Rotation" />
+        <param name="HELP_URL" value="../../../../../Classes/info/energy/Rotation/info.html" />
       </applet>
     </div>
   </body>

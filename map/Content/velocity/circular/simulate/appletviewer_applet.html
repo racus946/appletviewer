@@ -1,6 +1,7 @@
 <html>
   <head>
-    <title>Velocity</title>
+    <title>Circular Velocity</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <script
       language="JAVASCRIPT"
       src="../../../../styles/openWindow.js"
@@ -10,6 +11,7 @@
       cheerpjInit();
     </script>
   </head>
+
   <body
     bgcolor="#FFFFFF"
     topmargin="0"
@@ -17,6 +19,7 @@
     marginwidth="0"
     marginheight="0"
   >
+  <!-- width and height, not percentages -->
     <applet
       code="ca/ucalgary/phas/map/acceleration/circular/CircApplet"
       codebase="../../../../Classes"
@@ -25,15 +28,15 @@
       height="100"
       MAYSCRIPT="true"
     >
-      <param name="USE_PAGE_BROWSER" value="false" />
-      <param name="VERBOSE" value="false" />
-      <param name="APPLET_MODE" value="energy" />
-      <param name="APPLET_NAME" value="Force and Energy in Circular Motion" />
-      <param name="APPLET_NAME_FR" value="Force et Energie en Mouvement Circulaire" />
-      <param
-        name="HELP_URL"
-        value="../../../../Classes/info/acceleration/circular/CircApplet/applet_help.html"
-      />
+      <param name="APPLET_MODE" value="normal" />
+      <!--Acceptable values for "APPLET_MODE" are: (These are case-insensitive)
+      ---    normal
+      ---    energy
+    -->
+      <param name="USE_PAGE_PROWSER" value="false" />
+      <param name="HELP_URL" value="../../../../Classes/info/acceleration/circular/CircApplet/applet_help.html" />
+      <param name="APPLET_NAME" value="Circular Velocity" />
+      <param name="APPLET_NAME_FR" value="Vitesse Circulaire" />
     </applet>
   </body>
 </html>
